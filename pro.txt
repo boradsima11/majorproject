@@ -1,0 +1,44 @@
+            PHASE 1 ( PART A)
+    ---     basic set up    ---
+npm init -y
+npm i express
+npm i ejs
+npm i mongoose
+touch app.js
+
+    --   listing model   --
+create models folder //store listing.js file -this file store schema
+create init folder //store data.js file
+
+            PHASE 1 ( PART B)
+npm i ejs-mate 
+create LAYOUTS folder in views directory
+create boilerplate.ejs file in layouts folder
+
+create public folder to serve static file(css,js)
+inside public folder create css folder - in css folder create style.css file
+
+        -- crete navbar --
+add bootsrap link
+create includes folder //this is show in website common content eg;footer,navbar
+create navbar.ejs file inside includes folder
+
+
+        -- handle custom(server side) error --
+crete utils folder (util mean extra file)
+inside utils crate wrapsync.js file
+
+create new file expresserror.js this useful to show erromsg,sastuscode inside inhert ERROR class.
+
+create error.ejs file in views foleder. to show error using styling(bootsrap)
+
+                --     schema validation       --
+npm i joi(which is package validater the schema )
+-require it
+
+                PHASE 2 (PART A)
+1
+create review MODEL
+in models folder create review.js file
+2
+create review form
